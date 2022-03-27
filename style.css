@@ -210,10 +210,10 @@ table {
         height: 40%; /*55%*/
         background-color: rgba(0, 0, 0, .2);
         color: white;
-        padding-top: 150px;
+        padding-top: 170px;
         text-align: center;
         opacity: 1;
-        margin: 0 auto;
+        margin: 0 30% 0 30%;
         /*-webkit-transition: all .5s;
         -o-transition: all .5s;
         transition: all .5s;*/
