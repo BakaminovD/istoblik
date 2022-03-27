@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Pollock2CTT';
+    src: url(pollock2ctt_[allfont.ru].ttf);
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+body{
+    background-color:#6b4e4e;
+    color: white;
+    font-family: 'Pollock2CTT';
+}
+
+.porfolio {
+    width: 100%;
+}
+
+.alboms {
+    width: 100%;
+    text-align: center;
+}
+
+.oblojka {
+    width: 100%;
+}
+
+.porfolio p {
+    width: auto;
+    margin: 0% 30% 0% 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.porfolio video {
+    width: 300px;
+}
+
+table {
+    width: auto;
+    margin: auto;
+}
+
+.porfolio ul {
+    text-align: center;
+}
+
+
+.porfolio ul,
+.porfolio li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.porfolio li {
+    display: inline-block;
+    width: 350px;
+    position: relative;
+}
+
+.porfolio img {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 250px;
+    display: block;
+}
+
+.descr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55%; /*100%*/
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    opacity: 0;
+    /*-webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;*/
+}
+
+/*.porfolio li:hover .descr {
+    opacity: 1;
+}*/
+
+.ssylka {
+    width: 100%;
+    text-align: center;
+}
+
+.ssylka a {
+    padding: 0px 20px 0px 20px;
+}
+
+/*СКРОЛИНГ*/
+
+ /* W3C standard
+   сейчас только для Firefox */
+   * {
+    scrollbar-width: thin;
+    scrollbar-color: white #6b4e4e;
+  }
+  
+  /* для Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+    height: 12px; /* 12px */
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #6b4e4e;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color:white;
+    border-radius: 10px;
+    border: 3px solid #6b4e4e;
+  }
+
+/*КОНЕЦ СКРОЛИНГА*/

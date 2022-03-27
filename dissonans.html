@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" sizes="50x50" href="imag/icon.jpg">
+    <link rel="stylesheet" href="style.css" media="screen and (min-width: 401px)">
+    <link rel="stylesheet" href="mstyle.css" media="screen and (max-width: 400px)">
+    <title>Альбомы</title>
+    <script src="code.js"></script>
+</head>
+<body>
+    <div class="ssylka">
+        <a href="index.html" >на главную</a>
+    </div>
+    <h1>Явление "Истинный Облик"</h1>
+    <h3>когнитивный диссонанс<br>2021</h3>
+    <div class="oblojka">
+        <table>
+            <tr>
+                    <td>
+                            <img src="alboms_img/dissonans.jpg" alt="Обложка альбома" height="250" title="Обложка альбома">
+                    </td>
+                    <td>
+                            <ol>
+                                    <li><a href="#i1">Вечерний хутор</a></li>
+                                    <li><a href="#02">40 и 5</a></li>
+                                    <!-- <li><a href="#i2">Ежели бы мне бы...</a></li> -->
+                            </ol>
+                    </td>
+            </tr>
+            </table>
+    </div>
+    <div class="alboms">
+        <h2 id="i1">1. Вечерний хутор</h2>
+        <audio controls onplay="other_pause(0)">
+            <source src="dissonans_audio/01.mp3" type="audio/mpeg">
+        </audio>
+        <h2 id="i2">2. 40 и 5</h2>
+        <audio controls onplay="other_pause(1)">
+            <source src="dissonans_audio/02.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</body>
+</html>
