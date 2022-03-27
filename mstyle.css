@@ -18,26 +18,26 @@ body{
 }
 
 .porfolio {
-    width: 100%;
+    width: 300px;
 }
 
 .alboms {
-    width: 100%;
+    width: 300px;
     text-align: center;
 }
 
 .oblojka {
-    width: 100%;
+    width: 300px;
 }
 
 .porfolio p {
     width: auto;
-    margin: 0% 30% 0% 30%;
+    margin: 0% 5% 0% 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .porfolio video {
-    width: 300px;
+    max-width: 200px;
 }
 
 table {
@@ -80,7 +80,7 @@ table {
     color: white;
     padding-top: 200px;
     text-align: center;
-    opacity: 0;
+    opacity: 1;
     /*-webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;*/
