@@ -1,4 +1,4 @@
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1001px) {
 
 @font-face {
     font-family: 'Pollock2CTT';
@@ -128,7 +128,7 @@ table {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     
     @font-face {
         font-family: 'Pollock2CTT';
@@ -151,6 +151,10 @@ table {
     
     .porfolio {
         width: 300px;
+    }
+
+    .mycenter{
+        margin: 0 auto;
     }
     
     .alboms {
@@ -210,7 +214,7 @@ table {
         height: 40%; /*55%*/
         background-color: rgba(0, 0, 0, .2);
         color: white;
-        padding-top: 195px;
+        padding-top: 200px;
         text-align: center;
         opacity: 1;
         margin: auto;
