@@ -151,6 +151,7 @@ table {
     
     .porfolio {
         width: 300px;
+        margin: 0 auto;
     }
     
     .alboms {
@@ -207,10 +208,10 @@ table {
         top: 0;
         left: 0;
         width: 100%;
-        height: 55%; /*100%*/
+        height: 40%; /*55%*/
         background-color: rgba(0, 0, 0, .2);
         color: white;
-        padding-top: 200px;
+        padding-top: 150px;
         text-align: center;
         opacity: 1;
         /*-webkit-transition: all .5s;
